@@ -45,9 +45,9 @@ github release、archive以及项目文件的加速项目，支持clone，Cloudf
 
 ## 👷 Workers 部署方法
 ### ☁️ 部署 Cloudflare Worker：
-
+   - https://workers.cloudflare.com/
    - 在 Cloudflare Worker 控制台中创建一个新的 Worker
-   - 将 [worker.js]的内容粘贴到 Worker 编辑器中
+   - 将 worker.js 的内容粘贴到 Worker 编辑器中
 
 ## 🔧 变量说明
 | 变量名 | 示例 | 必填 | 备注 |
