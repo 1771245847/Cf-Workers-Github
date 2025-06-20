@@ -1,4 +1,4 @@
-# 📦 Cf-Workers-Github
+# 📦 CF-Workers-GitHub
 
 ![img](./img.png)
 
@@ -52,11 +52,11 @@ github release、archive以及项目文件的加速项目，支持clone，Cloudf
 ## 🔧 变量说明
 | 变量名 | 示例 | 必填 | 备注 |
 |--|--|--|--|
-| URL | `https://www.baidu.com/` |❌| 主页伪装(设为`nginx`则伪装为nginx默认页面) |
-| URL302 | `https://t.me/` |❌| 主页302跳转 |
+| URL | `https://cn.bing.com/` |❌| 主页伪装(设为`nginx`则伪装为nginx默认页面) |
+| URL302 | `https://` |❌| 主页302跳转 |
 
 # 🙏 致谢
 
 原项目作者:  https://github.com/hunshcn/gh-proxy
 
-[Cf-Workers-Github](https://github.com/cmliu/CF-Workers-GitHub/)
+[CF-Workers-GitHub](https://github.com/cmliu/CF-Workers-GitHub/)
