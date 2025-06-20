@@ -34,7 +34,7 @@ github release、archive以及项目文件的加速项目，支持clone，Cloudf
 ## 📄 Pages Github 部署
 
 ### 1️⃣ 部署 Cloudflare Pages：
-   - 在 Github 上先 Fork 本项目，并点上 Star !!!
+   - 在 Github 上先 Fork 本项目，并点上 Star
    - 在 Cloudflare Pages 控制台中选择 `连接到 Git`后，选中 `Cf-Workers-Github`项目后点击 `开始设置`
      
 ### 2️⃣ 给 Pages绑定 自定义域：
