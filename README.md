@@ -1,21 +1,16 @@
 # 📦 CF-Workers-GitHub
 
-![img](./img.png)
+![img](./img/img.png)
 
 ## 📝 简介
-github release、archive以及项目文件的加速项目，支持clone，Cloudflare Workers & Pages 版本
-
-> [!CAUTION]
-> **https://gh-proxy.canyue.workers.dev 已被GFW污染，生产环境建议自行部署服务**
+github release、archive以及项目文件的加速项目 支持clone Cloudflare Workers Pages 版本
 
 > [!WARNING]
 > 项目可能会触发**疑似钓鱼网站**警告或域名封禁，请通过环境变量 `URL` 赋值 **nginx** 或 `URL302` 设置302跳转域名进行伪装
 
 ## 🚀 使用
 
-直接在copy出来的url前加`https://gh-proxy.canyue.workers.dev/`即可
-
-也可以直接访问，在input输入
+直接在copy出来的url前加`http://127.0.0.1:8080/`即可
 
 ***大量使用请自行部署，以上域名仅为演示使用***
 
@@ -26,10 +21,6 @@ github release、archive以及项目文件的加速项目，支持clone，Cloudf
 以下都是合法输入（仅示例，文件不存在）：
 
 - 分支源码：https://github.com/hunshcn/project/archive/master.zip
-
-- release源码：https://github.com/hunshcn/project/archive/v0.1.0.tar.gz
-
-- release文件：https://github.com/hunshcn/project/releases/download/v0.1.0/example.zip
 
 ## 📄 Pages Github 部署
 
@@ -45,7 +36,7 @@ github release、archive以及项目文件的加速项目，支持clone，Cloudf
 
 ## 👷 Workers 部署方法
 ### ☁️ 部署 Cloudflare Worker：
-   - https://workers.cloudflare.com/
+   - https://workers.cloudflare.com
    - 在 Cloudflare Worker 控制台中创建一个新的 Worker
    - 将 worker.js 的内容粘贴到 Worker 编辑器中
 
