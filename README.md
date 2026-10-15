@@ -3,14 +3,15 @@
 ![img](./img/img.png)
 
 ## 📝 简介
-github release、archive以及项目文件的加速项目 支持clone Cloudflare Workers Pages 版本
+
+Github 文件加速
 
 > [!WARNING]
 > 项目可能会触发**疑似钓鱼网站**警告或域名封禁，请通过环境变量 `URL` 赋值 **nginx** 或 `URL302` 设置302跳转域名进行伪装
 
 ## 🚀 使用
 
-直接在copy出来的url前加`http://127.0.0.1:8080/`即可
+直接在copy出来的url前加`http://127.0.0.1:8080`即可
 
 ***大量使用请自行部署，以上域名仅为演示使用***
 
@@ -20,7 +21,7 @@ github release、archive以及项目文件的加速项目 支持clone Cloudflare
 
 以下都是合法输入（仅示例，文件不存在）：
 
-- 分支源码：https://github.com/hunshcn/project/archive/master.zip
+- Releases：https://github.com/hunshcn/project/archive/master.zip
 
 ## 📄 Pages Github 部署
 
@@ -43,8 +44,8 @@ github release、archive以及项目文件的加速项目 支持clone Cloudflare
 ## 🔧 变量说明
 | 变量名 | 示例 | 必填 | 备注 |
 |--|--|--|--|
-| URL | `https://cn.bing.com/` |❌| 主页伪装(设为`nginx`则伪装为nginx默认页面) |
-| URL302 | `https://` |❌| 主页302跳转 |
+| URL | `https://cn.bing.com` |❌| 主页伪装(设为`nginx`则伪装为nginx默认页面) |
+| URL302 | `https://cn.bing.com` |❌| 主页302跳转 |
 
 # 🙏 致谢
 
